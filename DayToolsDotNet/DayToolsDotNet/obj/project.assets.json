@@ -1468,6 +1468,19 @@
           }
         }
       },
+      "NLipsum/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/NLipsum.Core.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net20/NLipsum.Core.dll": {
+            "related": ".XML"
+          }
+        }
+      },
       "stdole/17.0.31902.203": {
         "type": "package",
         "dependencies": {
@@ -3501,6 +3514,19 @@
           }
         }
       },
+      "NLipsum/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/NLipsum.Core.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net20/NLipsum.Core.dll": {
+            "related": ".XML"
+          }
+        }
+      },
       "runtime.any.System.IO/4.3.0": {
         "type": "package",
         "compile": {
@@ -5525,6 +5551,19 @@
           }
         }
       },
+      "NLipsum/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/NLipsum.Core.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net20/NLipsum.Core.dll": {
+            "related": ".XML"
+          }
+        }
+      },
       "runtime.any.System.IO/4.3.0": {
         "type": "package",
         "compile": {
@@ -7546,6 +7585,19 @@
         "runtime": {
           "lib/net45/_._": {
             "related": ".xml"
+          }
+        }
+      },
+      "NLipsum/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/NLipsum.Core.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net20/NLipsum.Core.dll": {
+            "related": ".XML"
           }
         }
       },
@@ -10145,6 +10197,23 @@
         "packageIcon.png"
       ]
     },
+    "NLipsum/1.1.0": {
+      "sha512": "WSEizhJQ5mWEg0OzOUUnCJlA9jHq+TN/Axk/wDdZdEkZcQMnV2qiSiWgBmNIQ66j1GKweWs9V0HnyzxAFUBfyg==",
+      "type": "package",
+      "path": "nlipsum/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/NLipsum.Core.XML",
+        "lib/net20/NLipsum.Core.dll",
+        "lib/netstandard1.0/NLipsum.Core.XML",
+        "lib/netstandard1.0/NLipsum.Core.dll",
+        "lib/portable-net403+sl50+netcore45+wpa81+wp8/NLipsum.Core.XML",
+        "lib/portable-net403+sl50+netcore45+wpa81+wp8/NLipsum.Core.dll",
+        "nlipsum.1.1.0.nupkg.sha512",
+        "nlipsum.nuspec"
+      ]
+    },
     "runtime.any.System.IO/4.3.0": {
       "sha512": "SDZ5AD1DtyRoxYtEcqQ3HDlcrorMYXZeCt7ZhG9US9I5Vva+gpIWDGMkcwa5XiKL0ceQKRZIX2x0XEjLX7PDzQ==",
       "type": "package",
@@ -11541,7 +11610,8 @@
     ".NETFramework,Version=v4.8": [
       "Community.VisualStudio.Toolkit.17 >= 17.0.430",
       "Community.VisualStudio.VSCT >= 16.0.29.6",
-      "Microsoft.VSSDK.BuildTools >= 17.0.5232"
+      "Microsoft.VSSDK.BuildTools >= 17.0.5232",
+      "NLipsum >= 1.1.0"
     ]
   },
   "packageFolders": {
@@ -11594,7 +11664,12 @@
           },
           "Microsoft.VSSDK.BuildTools": {
             "target": "Package",
-            "version": "[17.0.5232, )"
+            "version": "[17.0.5232, )",
+            "generatePathProperty": true
+          },
+          "NLipsum": {
+            "target": "Package",
+            "version": "[1.1.0, )"
           }
         }
       }

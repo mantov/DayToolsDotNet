@@ -50,7 +50,12 @@
             },
             "Microsoft.VSSDK.BuildTools": {
               "target": "Package",
-              "version": "[17.0.5232, )"
+              "version": "[17.0.5232, )",
+              "generatePathProperty": true
+            },
+            "NLipsum": {
+              "target": "Package",
+              "version": "[1.1.0, )"
             }
           }
         }

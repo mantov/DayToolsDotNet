@@ -9,20 +9,20 @@
   <Commands package="DayToolsDotNet">
     <Groups>
       <Group guid="DayToolsDotNet" id="MyMenuGroup" priority="0x0600">
-        <Parent guid="VSMainMenu" id="Tools"/>
+        <Parent guid="VSMainMenu" id="Edit"></Parent>
       </Group>
     </Groups>
 
     <!--This section defines the elements the user can interact with, like a menu command or a button
         or combo box in a toolbar. -->
     <Buttons>
-      <Button guid="DayToolsDotNet" id="MyCommand" priority="0x0100" type="Button">
+      <Button guid="DayToolsDotNet" id="IpsumLoremCommand" priority="0x0100" type="Button">
         <Parent guid="DayToolsDotNet" id="MyMenuGroup" />
-        <Icon guid="ImageCatalogGuid" id="StatusInformation" />
+        <Icon guid="ImageCatalogGuid" id="ForceDirectedLayout" />
         <CommandFlag>IconIsMoniker</CommandFlag>
         <Strings>
-          <ButtonText>My Command</ButtonText>
-          <LocCanonicalName>.DayToolsDotNet.MyCommand</LocCanonicalName>
+          <ButtonText>Insere Ipsum</ButtonText>
+          <LocCanonicalName>.Edit.DayToolsDotNet.IpsumLorem</LocCanonicalName>
         </Strings>
       </Button>
     </Buttons>
@@ -31,7 +31,7 @@
   <Symbols>
     <GuidSymbol name="DayToolsDotNet" value="{bccb0011-fab4-4702-97f3-e0cae664dfc6}">
       <IDSymbol name="MyMenuGroup" value="0x0001" />
-      <IDSymbol name="MyCommand" value="0x0100" />
+      <IDSymbol name="IpsumLoremCommand" value="0x0100" />
     </GuidSymbol>
   </Symbols>
 </CommandTable>
