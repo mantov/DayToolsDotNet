@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TlrNlTHBCU9c14K7wY49lWpnRAhdKGXex5Z4cTQ5+SH9T4gVAQ95lGMVQjDNcuL/k9F9VHGs2+Mtv3Z6o+S3OA==",
+  "dgSpecHash": "QLIFbJZYAt08WCoIAM85eb0OHJYakGPe61lTe5QKxF4/y3T1R2e993sn4AKpqxsI3VI96XCAyc53YpQtRwbogQ==",
   "success": true,
-  "projectFilePath": "C:\\Git\\mantov\\DayToolsDotNet\\DayToolsDotNet\\DayToolsDotNet\\DayToolsDotNet.csproj",
+  "projectFilePath": "C:\\Git\\mantov\\DayToolsDotNet\\DayToolsDotNet\\DayToolsDotNet\\DayToolsDotNet.View.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\community.visualstudio.toolkit.17\\17.0.430\\community.visualstudio.toolkit.17.17.0.430.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\community.visualstudio.toolkit.analyzers\\1.0.430\\community.visualstudio.toolkit.analyzers.1.0.430.nupkg.sha512",

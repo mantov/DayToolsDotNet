@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DayToolsDotNet.Janelas
+namespace DayToolsDotNet.ViewModel.GeradorDeTexto
 {
-    internal class IpsumJanela
+    internal class TipoTextoModel
     {
     }
 }

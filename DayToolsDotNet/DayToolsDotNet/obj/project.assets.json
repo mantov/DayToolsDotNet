@@ -11621,9 +11621,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Git\\mantov\\DayToolsDotNet\\DayToolsDotNet\\DayToolsDotNet\\DayToolsDotNet.csproj",
+      "projectUniqueName": "C:\\Git\\mantov\\DayToolsDotNet\\DayToolsDotNet\\DayToolsDotNet\\DayToolsDotNet.View.csproj",
       "projectName": "DayToolsDotNet",
-      "projectPath": "C:\\Git\\mantov\\DayToolsDotNet\\DayToolsDotNet\\DayToolsDotNet\\DayToolsDotNet.csproj",
+      "projectPath": "C:\\Git\\mantov\\DayToolsDotNet\\DayToolsDotNet\\DayToolsDotNet\\DayToolsDotNet.View.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
       "outputPath": "C:\\Git\\mantov\\DayToolsDotNet\\DayToolsDotNet\\DayToolsDotNet\\obj\\",
       "projectStyle": "PackageReference",
