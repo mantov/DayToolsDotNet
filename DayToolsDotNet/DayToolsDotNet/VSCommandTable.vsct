@@ -6,32 +6,57 @@
   <Include href="KnownImageIds.vsct"/>
   <Include href="VSGlobals.vsct"/>
 
-  <Commands package="DayToolsDotNet">
+  <Commands package="guidPrincipal">
     <Groups>
-      <Group guid="DayToolsDotNet" id="MyMenuGroup" priority="0x0600">
+      <Group guid="guidPrincipal" id="MyMenuGroup" priority="0x0600">
         <Parent guid="VSMainMenu" id="Edit"></Parent>
       </Group>
+      <Group guid="guidPrincipal" id="SubMenuPrincipal" priority="0x0000">
+        <Parent guid="guidPrincipal" id="SubMenu"/>
+      </Group>
     </Groups>
-
-    <!--This section defines the elements the user can interact with, like a menu command or a button
-        or combo box in a toolbar. -->
-    <Buttons>
-      <Button guid="DayToolsDotNet" id="IpsumLoremCommand" priority="0x0100" type="Button">
-        <Parent guid="DayToolsDotNet" id="MyMenuGroup" />
-        <Icon guid="ImageCatalogGuid" id="ForceDirectedLayout" />
-        <CommandFlag>IconIsMoniker</CommandFlag>
+    <Menus>
+      <Menu guid="guidPrincipal" id="SubMenu" priority="0x0100" type="Menu">
+        <Parent guid="guidPrincipal" id="MyMenuGroup"/>
         <Strings>
-          <ButtonText>Insere Ipsum</ButtonText>
-          <LocCanonicalName>.Edit.DayToolsDotNet.IpsumLorem</LocCanonicalName>
+          <ButtonText>DayMantoTools</ButtonText>
+        </Strings>
+      </Menu>
+    </Menus>
+    <Buttons>
+		<Button guid="guidPrincipal" id="cmdidDadosRequisicao" priority="0x0000" type="Button">
+			<Parent guid="guidPrincipal" id="SubMenuPrincipal" />
+			<Strings>
+				<CommandName>cmdidDadosRequisicao</CommandName>
+				<ButtonText>Dados da Requisição</ButtonText>
+			</Strings>
+		</Button>
+      <Button guid="guidPrincipal" id="cmdidEstruturaDba" priority="0x0001" type="Button">
+        <Parent guid="guidPrincipal" id="SubMenuPrincipal" />
+        <Strings>
+          <CommandName>cmdidEstruturaDba</CommandName>
+          <ButtonText>Estrutura DBA</ButtonText>
+        </Strings>
+      </Button>
+      <Button guid="guidPrincipal" id="cmdidConfiguracoes" priority="0x0002" type="Button">
+        <Parent guid="guidPrincipal" id="SubMenuPrincipal" />
+        <Strings>
+          <CommandName>Configuracao</CommandName>
+          <ButtonText>Configurações</ButtonText>
         </Strings>
       </Button>
     </Buttons>
   </Commands>
 
   <Symbols>
-    <GuidSymbol name="DayToolsDotNet" value="{bccb0011-fab4-4702-97f3-e0cae664dfc6}">
-      <IDSymbol name="MyMenuGroup" value="0x0001" />
-      <IDSymbol name="IpsumLoremCommand" value="0x0100" />
+    <GuidSymbol name="guidPrincipal" value="{bccb0011-fab4-4702-97f3-e0cae664dfc6}">
+
+      <IDSymbol name="MyMenuGroup" value="0x1100"/>
+      <IDSymbol name="SubMenu" value="0x1125"/>
+      <IDSymbol name="SubMenuPrincipal" value="0x1150"/>
+		<IDSymbol name="cmdidDadosRequisicao" value="0x0100"/>
+		<IDSymbol name="cmdidEstruturaDba" value="0x0105"/>
+      <IDSymbol name="cmdidConfiguracoes" value="0x010"/>
     </GuidSymbol>
   </Symbols>
 </CommandTable>

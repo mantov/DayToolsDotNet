@@ -12,15 +12,19 @@ namespace DayToolsDotNet
     /// </summary>
     internal sealed partial class PackageGuids
     {
-        public const string DayToolsDotNetString = "bccb0011-fab4-4702-97f3-e0cae664dfc6";
-        public static Guid DayToolsDotNet = new Guid(DayToolsDotNetString);
+        public const string guidPrincipalString = "bccb0011-fab4-4702-97f3-e0cae664dfc6";
+        public static Guid guidPrincipal = new Guid(guidPrincipalString);
     }
     /// <summary>
     /// Helper class that encapsulates all CommandIDs uses across VS Package.
     /// </summary>
     internal sealed partial class PackageIds
     {
-        public const int MyMenuGroup = 0x0001;
-        public const int IpsumLoremCommand = 0x0100;
+        public const int MyMenuGroup = 0x1100;
+        public const int SubMenu = 0x1125;
+        public const int SubMenuPrincipal = 0x1150;
+        public const int cmdidDadosRequisicao = 0x0100;
+        public const int cmdidEstruturaDba = 0x0105;
+        public const int cmdidConfiguracoes = 0x0010;
     }
 }
